@@ -1,19 +1,32 @@
+:root {
+  --fb-primary-color: #1877f2;
+  --fb-secondary-color: #42b72a;
+  --fb-secondary-hover-color: #00a400;
+  --fb-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  --fb-bg-gray: #f0f2f5;
+  --fb-border: 1px solid #dddfe2;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: poppins;
 }
+
 a {
   text-decoration: none;
 }
+
 li {
   list-style: none;
 }
+
 ul {
   padding-bottom: 0;
   margin-left: 0;
 }
-.max_width {
-  width: 1400px;
-  margin: auto;
+
+input:focus {
+  outline: none;
 }

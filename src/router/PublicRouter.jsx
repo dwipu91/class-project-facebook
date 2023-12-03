@@ -7,6 +7,10 @@ import Other from "../pages/oteher/Other";
 import Auth from "../pages/auth/Auth";
 const PublicRouter = [
   {
+    path: "/auth",
+    element: <Auth />,
+  },
+  {
     element: <Layout />,
     children: [
       {
@@ -16,10 +20,6 @@ const PublicRouter = [
       {
         path: "/about",
         element: <About />,
-      },
-      {
-        path: "/auth",
-        element: <Auth />,
       },
       {
         path: "/blog",
