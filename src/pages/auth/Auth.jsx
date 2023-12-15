@@ -6,7 +6,7 @@ import { AiFillQuestionCircle } from "react-icons/ai";
 
 import { useState } from "react";
 import { day, month } from "../../faker/dmy";
-import { creatToast, isEmail, isMobile } from "../../helper/Helper";
+import { creatToast, isEmail } from "../../helper/Helper";
 
 // key facebook years key
 const years = Array.from(

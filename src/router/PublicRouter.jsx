@@ -5,6 +5,7 @@ import Blog from "../pages/blog/Blog";
 import Service from "../pages/service/Service";
 import Other from "../pages/oteher/Other";
 import Auth from "../pages/auth/Auth";
+
 const PublicRouter = [
   {
     path: "/auth",
